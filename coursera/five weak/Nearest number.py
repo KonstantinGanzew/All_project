@@ -1,0 +1,5 @@
+q = int(input())
+a = list(map(int, input().split()))
+n = int(input())
+m = min(a, key=lambda x: abs(x - n))
+print(m)
